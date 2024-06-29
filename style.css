@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #333;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     font-family: "Poppins", sans-serif;
 }
@@ -14,6 +14,12 @@ body {
   font-weight: 600;
 }*/
 
+.navbar > img{
+  width:150px;
+  height:75px;
+  margin: 0;
+  padding: 0;
+}
 .container {
   display:grid;
   align-items: center;
@@ -23,10 +29,6 @@ body {
 .container > div{
   text-align: center;
   font-size: 15px;
-}
-img{
-  max-width: 100%;
-  max-height: 100%;
 }
 
 #search-txt{
@@ -250,12 +252,13 @@ nav {
   margin: 0;
   padding: 15px;
 }
-.navbar h1 {
+/* .navbar h1 {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
-}
+  margin-bottom: 50px;
+} */
 
 .nav-links {
   list-style: none;
@@ -283,6 +286,17 @@ nav {
   color: #ffcc00; /* Highlight color on hover */
 }
 
+.nav-links .fa-solid:hover{
+  color: #ffcc00;
+}
+
+.footer{
+  background-color: #000000;
+  justify-content: center;
+  width:100%;
+  height: 3rem;
+  text-align: center;
+}
 /* Responsive Navbar for Mobile */
 @media screen and (max-width: 600px) {
   .navbar {
@@ -459,7 +473,7 @@ button {
 }
 #link a{
   /* text-decoration: none; */
-  color: #1b1c6d;
+  color: #bcbdde;
 
 }
 
